@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Piwik Link Generator
- * Plugin URI:
+ * Plugin URI: https://github.com/code-sport/piwik-link-generator
  * Description: Shows links for logedin user to share the content with piwik tracking
  * Version: 1.0.0
  * License: GPLv3
