@@ -4,9 +4,9 @@ php:
 
 addons:
   sonarcloud:
-    organization: SONARCLOUD_ORGANIZATION_KEY # the key of the org you chose at step #3
+    organization: $SONARCLOUD_ORGANIZATION_KEY # the key of the org you chose at step #3
     token:
-      secure: SONARCLOUD_TOKEN # encrypted value of your token
+      secure: $SONARCLOUD_TOKEN # encrypted value of your token
 script:
   # other script steps might be done before running the actual analysis
-  - sonar-scanner -dsonar.projectKey=SONARCLOUD_PROJECT_KEY
+  - sonar-scanner -dsonar.projectKey=$SONARCLOUD_PROJECT_KEY
