@@ -1,3 +1,7 @@
+language: php
+php:
+  - '7.1'
+
 addons:
   sonarcloud:
     organization: SONARCLOUD_ORGANIZATION_KEY # the key of the org you chose at step #3
