@@ -4,6 +4,7 @@
  * Plugin URI:
  * Description: Shows links for logedin user to share the content with piwik tracking
  * Version: 1.0.0
+ * License: GPLv3
  * Author: Code.Sport
  * Author URI: mailto:code.sport@t-online.de
  **/
